@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and release output
+build/
+dist/
+release/
+*.spec
+
+# Historical/local entry points kept out of the public repo
+main_v1.py
+
+# Local logs and traces
+*.log
+startup_trace_source*.log
+selftest_screenshots/
+
+# Local archives and downloaded assets
+*.zip
+tmp_icon_pack/
+icon_*/
+
+# Local/manual test datasets
+test_sets/
+test_exam*/
+test_exam_save_check/
+test_exam_v3_keep_backup_check/
+test_exam_v3_save_check/
+tachi_e_backdrop/
+布局问题反馈/
+
+# Internal planning notes
+lora_tag_studio_*_requirements.md
+spec.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

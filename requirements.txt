@@ -1,0 +1,3 @@
+PySide6>=6.7,<7
+PySideSix-Frameless-Window==0.8.1
+pytest>=9,<10
